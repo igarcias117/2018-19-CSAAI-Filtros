@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>filtos</title>
+    <link rel="stylesheet" href="filtros.css">
+    <script src="filtros.js"></script>
+  </head>
+  <body onload="main();">
+    <p>Imagen original</p>
+    <img src="foto_filtros.jpg" id="imagesrc">
+
+    <p>Imagen manipulada</p>
+    <canvas id="display"></canvas>
+
+    <p>Establece el umbral de rojo:</p>
+    <input type="range" id="deslizador_rojo" class = "deslizador" min="0" max="255" value="0"/>
+    <p id="display_rojo" class ="display">00</p>
+
+    <p>Establece el umbral de verde:</p>
+    <input type="range" id="deslizador_verde" class = "deslizador" min="0" max="255" value="0"/>
+    <p id="display_verde" class ="display">00</p>
+
+    <p>Establece el umbral de azul:</p>
+    <input type="range" id="deslizador_azul" class = "deslizador" min="0" max="255" value="0"/>
+    <p id="display_azul" class ="display">00</p>
+
+    <button type="button" name="button" id="blancoynegro">Filtro blanco y negro</button>
+  </body>
+</html>

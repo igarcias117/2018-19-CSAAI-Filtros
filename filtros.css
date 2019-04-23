@@ -1,0 +1,15 @@
+#parrafo{
+  background-color: orange;
+}
+
+body {
+  background-color: grey;
+}
+
+#blancoynegro{
+  background-color: grey;
+  color: orange;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
