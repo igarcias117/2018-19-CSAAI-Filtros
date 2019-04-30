@@ -13,3 +13,11 @@ body {
   text-decoration: none;
   display: inline-block;
 }
+
+#colores{
+  background-color: grey;
+  color: orange;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
